@@ -1,0 +1,116 @@
+* {
+	margin: 0px;
+}
+
+body {
+	background-color: #95aebb;
+}
+
+.header {
+	background-color: #16282c;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px;
+}
+
+.headerImage,
+.title,
+.sideContent > h5 {
+	cursor: pointer;
+}
+
+.companyName {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.headerImage {
+	height: 55px;
+	width: 55px;
+}
+
+.title {
+	font-size: 45px;
+}
+
+.sideContent {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	/* flex-wrap: wrap; */
+	gap: 35px;
+	margin: 0px;
+	font-size: 25px;
+}
+
+.verticalLine {
+	border-left: 4px solid white;
+	height: 35px;
+}
+
+.container {
+	background-color: #95aebb;
+	color: #434141;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 50px;
+	padding: 30px;
+}
+
+.right {
+	background-color: #b5c8d3;
+	padding: 40px;
+}
+
+.left {
+	padding: 40px;
+}
+
+.heading {
+	font-size: 50px;
+	background-color: #fdcede;
+}
+
+.subHeading1 {
+	margin-top: 40px;
+	font-size: 26.5px;
+}
+
+.buttons {
+	border: 2px solid white;
+	color: #fff;
+	padding: 13px;
+	background-color: #95aebb;
+	font-size: 15px;
+	border-radius: 8px;
+	margin-top: 45px;
+	margin-right: 33px;
+}
+
+.buttons:hover {
+	border: 2px solid black;
+	background-color: #16282c;
+}
+
+.subHeading2 {
+	font-size: 15.7px;
+	margin-top: 75px;
+}
+
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+}
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+
+	
+}
